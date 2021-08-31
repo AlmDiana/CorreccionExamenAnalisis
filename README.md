@@ -37,3 +37,4 @@ A continuación se detalla el proceso que se realizó para completar este ejerci
 ![imagen](https://user-images.githubusercontent.com/58041267/131432307-a6f44c74-e882-49bb-9add-552d7b5e5bff.png)
 
 # Ejercicio 4
+Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
