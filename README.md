@@ -80,7 +80,8 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
 ![image](https://user-images.githubusercontent.com/66786471/131441670-66297698-13c1-45c8-bb98-aec7b461c466.png)
 
-3.
+3.Una ves finalizado el proceso, se desplegara el contenido de esa coleccion en MongoDB compass
+
 ![image](https://user-images.githubusercontent.com/66786471/131442351-4f9766bc-da6e-41f2-b181-3edbd5a7a08c.png)
 
 
