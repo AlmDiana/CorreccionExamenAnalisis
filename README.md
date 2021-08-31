@@ -61,15 +61,25 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
   ![Creacion de csv](https://user-images.githubusercontent.com/65979995/131438713-f473a84f-ecab-4bef-b4e5-a24bfcb3dc85.PNG)
 
-4. Ahora procedemos a iniciar el servidor con la herramienta XAMPP
+4. 
 ![image](https://user-images.githubusercontent.com/66786471/131439398-af1294fa-a330-4d4b-a150-194fe0589481.png)
 
-5.Una vez iniciada, ingresamos a nuestra cuenta en phpMyAdmin y creamos una nueva base de datos donde subiremos cada uno de los CVS
 ![image](https://user-images.githubusercontent.com/66786471/131439642-b212023e-3545-4efe-967b-da5d6cb3f270.png)
 
 ![image](https://user-images.githubusercontent.com/66786471/131439896-8b685b19-eaa3-4283-8826-de0edca47db8.png)
 
 ![image](https://user-images.githubusercontent.com/66786471/131440074-54f9aaa9-798a-413b-b64a-f2676acc8170.png)
 
-![image](https://user-images.githubusercontent.com/66786471/131440202-dac1bff3-d90b-49d5-8d11-8e5ed625efda.png)
+
+# Ejercicio 6
+1. 
+# Ejercicio 7
+1. Para pasar los archivos de Couch DB a Mongo DB, se lo hizo manualmente, por lo tanto se tomó los archivos "juegoscorreccion" y "juegoscorreccion2" y se los guardó como archivo de tipo JSON.
+![imagen](https://user-images.githubusercontent.com/58041267/131440760-93e5adce-1a50-42bc-80ef-7b0ad89e1e7e.png)
+![imagen](https://user-images.githubusercontent.com/58041267/131440803-cf87a6fa-6f49-4d63-ac58-e8b57857b5f2.png)
+![imagen](https://user-images.githubusercontent.com/58041267/131440878-21c454d7-4e00-47dc-868e-e94655face17.png)
+
+2. Se crea una colección para guardar los archivos JSON mencionados en MongoB Compass y se comprueba.
+![imagen](https://user-images.githubusercontent.com/58041267/131440960-14a8ea59-860d-4f43-9ecb-2b3167c92864.png)
+
 
