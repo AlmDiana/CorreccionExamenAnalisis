@@ -61,13 +61,15 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
   ![Creacion de csv](https://user-images.githubusercontent.com/65979995/131438713-f473a84f-ecab-4bef-b4e5-a24bfcb3dc85.PNG)
 
-4. 
+4. Ahora procedemos a iniciar el servidor con la herramienta XAMPP
 ![image](https://user-images.githubusercontent.com/66786471/131439398-af1294fa-a330-4d4b-a150-194fe0589481.png)
 
+5.Una vez iniciada, ingresamos a nuestra cuenta en phpMyAdmin y creamos una nueva base de datos donde subiremos cada uno de los CVS
 ![image](https://user-images.githubusercontent.com/66786471/131439642-b212023e-3545-4efe-967b-da5d6cb3f270.png)
 
 ![image](https://user-images.githubusercontent.com/66786471/131439896-8b685b19-eaa3-4283-8826-de0edca47db8.png)
 
+![image](https://user-images.githubusercontent.com/66786471/131440074-54f9aaa9-798a-413b-b64a-f2676acc8170.png)
 
-# Ejercicio 6
+![image](https://user-images.githubusercontent.com/66786471/131440202-dac1bff3-d90b-49d5-8d11-8e5ed625efda.png)
 
