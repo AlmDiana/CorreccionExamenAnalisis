@@ -32,16 +32,34 @@ A continuación se detalla el proceso que se realizó para completar este ejerci
 ![imagen](https://user-images.githubusercontent.com/58041267/131428772-25428b1f-6d27-469d-8ba4-43ae3dcd0274.png)
 ![imagen](https://user-images.githubusercontent.com/58041267/131429903-596a977a-b8fe-4548-b940-725fc775b470.png)
 
-2. Conectarse con MongoDB por medio de pymongo, el código se encuentra en el Script 3 : "Ejercicio3.py" donde inicialmente se obtiene los datos html, se filtra por etiqueta y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo insertado en MongoDB Compass dentro de la base de datos y colección establecidas.
+2. Conexión con MongoDB por medio de pymongo, el código se encuentra en el Script 3 : "Ejercicio3.py" donde inicialmente se obtiene los datos html, se filtra por etiqueta y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo insertado en MongoDB Compass dentro de la base de datos y colección establecidas.
 ![imagen](https://user-images.githubusercontent.com/58041267/131431688-74b767d0-6861-40da-9349-ce7c4a7631ae.png)
 ![imagen](https://user-images.githubusercontent.com/58041267/131432307-a6f44c74-e882-49bb-9add-552d7b5e5bff.png)
 
 # Ejercicio 4
-A continuación se detalla el proceso que se realizó para completar este ejercicio:
-1. Al igual que en el Ejercicio 3, previa la conexión de MongoDB Atlas a MongoDB Compass, creó dentro de la base de datos "Corrección", la colección "Ejercicio 4":
-![imagen](https://user-images.githubusercontent.com/58041267/131433703-7488770b-b7fe-413e-97a3-2133e622d903.png)
+Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
+1. Realizamos el script para poder generar la base de datos con lo extraído desde Facebook y la palabra que buscamos
+![2](https://user-images.githubusercontent.com/85883884/131435545-3b404ec9-f2c6-4db1-9d06-ecd099842dd0.png)
+![3](https://user-images.githubusercontent.com/85883884/131435554-7413751d-d64b-4c06-88b1-9276ba385454.png)
+![4](https://user-images.githubusercontent.com/85883884/131435567-f586045c-aab6-40bf-8d24-a3f048170e93.png)
 
-2. Conectarse con MongoDB por medio de facebook_scraper y get_posts, el código se encuentra en el Script 4 : "Ejercicio4.py" donde inicialmente se selecciona una palabra a buscar dentro de los posts de facebook, se filtra por texto, fecha, likes, comentarios y reacciones y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo insertado en MongoDB Compass dentro de la base de datos y colección establecidas.
-![imagen](https://user-images.githubusercontent.com/58041267/131435917-5d6ef279-e1f4-4af6-a941-5a2eb57eb219.png)
+2. Comprobamos en MongoDB qeu todos los datos se hayan guardado correctamente
+![1](https://user-images.githubusercontent.com/85883884/131435616-c4a68aee-7f64-48d5-afcf-ff6e9fa63f55.png)
+![5](https://user-images.githubusercontent.com/85883884/131436278-2b04593d-1090-4104-a345-520a6fd3d2e9.png)
+![6](https://user-images.githubusercontent.com/85883884/131436291-78fae731-fa09-493c-954c-5834251f0ef9.png)
+![7](https://user-images.githubusercontent.com/85883884/131436303-a2c9845e-0bbc-4c89-8518-f3e365da6c46.png)
+![8](https://user-images.githubusercontent.com/85883884/131436314-9be9ecc9-2517-4e0b-bf12-0847f9cc3839.png)
 
 # Ejercicio 5
+
+1. Para este ejercicio haremos uso de la libreria tiktok-scraper y una carpeta donde guadaremos los csv generados.
+2. Para descargar los datos, ingresaremos a la carpeta deseada e instanciaremos tiktok-scraper junto a su nombre de usuario, la funcion -t y el formato a descargar csv como se muestra en la imagen
+![image](https://user-images.githubusercontent.com/66786471/131437651-6482c32d-42e5-4d18-9532-5be4095cf315.png)
+
+
+3. Posteriormente mientras se vayan generando los csv, podemos ver como en la carpeta creada anteriormente, se van guardando los csv, esto permite ver de mejor manera que estructura tienes y permitira la utilizacion facilmente en un futuro
+
+![Creacion de csv](https://user-images.githubusercontent.com/65979995/131438713-f473a84f-ecab-4bef-b4e5-a24bfcb3dc85.PNG)
+
+4. 
+
