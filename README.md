@@ -110,3 +110,13 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
 ![image](https://user-images.githubusercontent.com/66786471/131446454-17a1272b-c8ff-4647-af0b-0cef442e7021.png)
 
+
+# Ejercicio 9
+
+Para realizar este ejercicio se descargó manualmente las colecciones insertadas en formato CSV
+
+
+
+# Ejercicio 10
+
+Para realizar este ejercicio se descargó manualmente las colecciones insertadas en formato JSON, y con esto se da por finalizado el examen.
