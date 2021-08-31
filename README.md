@@ -72,13 +72,14 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
 
 # Ejercicio 6
-1. Se genero la coleccion en donde se almacenaran los datos provenientes del CSV de MySQL, posteriormente se abrira la ventana donde se podra seleccionar los tipos de datos que se van a subir.
+1. Se genero la coleccion en donde se almacenaran los datos provenientes del CSV de MySQL.
 
 ![image](https://user-images.githubusercontent.com/66786471/131441515-f28181da-7fd9-41af-a4da-e663b653188d.png)
 
+2. Abrira la ventana donde se podra seleccionar los tipos de archivos de datos que se van a subir.
+
 ![image](https://user-images.githubusercontent.com/66786471/131441670-66297698-13c1-45c8-bb98-aec7b461c466.png)
 
-2.
 3.
 
 # Ejercicio 7
