@@ -59,7 +59,7 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
 3. Posteriormente mientras se vayan generando los csv, podemos ver como en la carpeta creada anteriormente, se van guardando los csv, esto permite ver de mejor manera que estructura tienes y permitira la utilizacion facilmente en un futuro
 
-![Creacion de csv](https://user-images.githubusercontent.com/65979995/131438713-f473a84f-ecab-4bef-b4e5-a24bfcb3dc85.PNG)
+  ![Creacion de csv](https://user-images.githubusercontent.com/65979995/131438713-f473a84f-ecab-4bef-b4e5-a24bfcb3dc85.PNG)
 
 4. 
 
