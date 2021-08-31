@@ -1,4 +1,16 @@
 # Correccion del Examen - Analisis de Datos
+#Integrantes: 
+
+- Diana Almeida
+
+
+- Mateo Cevallos
+
+
+- Josué Singaña
+
+
+- Christian Soledispa
 
 # Ejercicio 1
 Script 1 : "Ejercicio1.py" Contiene la cosecha de datos de Twitter en base a la localización de 3 ciudades donde se realizan los juegos olímpicos, las 3 ciudades elegidas fueron: Shibuya, Izu, Koto.Para este ejercicio se colocó las credenciales de una cuenta de Twitter Developer. En el código se obtiene los datos provenientes de Twitter útiles para la conexión con CouchDB.
@@ -20,7 +32,7 @@ A continuación se detalla el proceso que se realizó para completar este ejerci
 ![imagen](https://user-images.githubusercontent.com/58041267/131428772-25428b1f-6d27-469d-8ba4-43ae3dcd0274.png)
 ![imagen](https://user-images.githubusercontent.com/58041267/131429903-596a977a-b8fe-4548-b940-725fc775b470.png)
 
-2. Conexión con MongoDB por medio de pymongo, el código se encuentra en el Script 3 : "Ejercicio3.py" donde inicialmente se obtiene los datos html, se filtra por etiqueta y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo guardado en MongoDB Compass.
+2. Conexión con MongoDB por medio de pymongo, el código se encuentra en el Script 3 : "Ejercicio3.py" donde inicialmente se obtiene los datos html, se filtra por etiqueta y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo insertado en MongoDB Compass dentro de la base de datos y colección establecidas.
 ![imagen](https://user-images.githubusercontent.com/58041267/131431688-74b767d0-6861-40da-9349-ce7c4a7631ae.png)
 ![imagen](https://user-images.githubusercontent.com/58041267/131432307-a6f44c74-e882-49bb-9add-552d7b5e5bff.png)
 
