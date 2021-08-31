@@ -22,3 +22,11 @@ Script 3 : "Ejercicio3.py" A continuación se detalla el proceso que se realizó
 3.  
 Se empieza realizando la conexion con mongodb por medio de pymongo, se muestra el mensaje de si se realizo correctamente la conexion o no. Se importan las herramientas necesarias y se generan las funciones que permitiran limpiar las etiquetas. Usamos el request para obtener los datos html y posteriormente se los limpia con un for el cual guardara los datos limpiados en Titles, una vez realizado esto se lo guarada como json y se lo manda a la BD y coleccion previamente creadas.
 
+#Ejercicio 5
+Se presentara  a continucacion la creacion de los CSV referentes a TIkTok para su posterior carga a MySQL
+1.- Se abre un terminal, en donde  se ejecutan los siguientes comandos
+![parte 5 tiktok 1 - CSV_ primera_pag_tiktok](https://user-images.githubusercontent.com/65979995/131430748-a69f8a2b-ad83-4d08-8120-47b44df11b17.png)
+2.- Esperamos a que se generen los CSV para poder ver su posterior ubicacion en la carpeta CSV tiktok
+![Creacion de csv](https://user-images.githubusercontent.com/65979995/131430914-ce52afe5-aac2-43b0-b2a2-737c78aeb671.PNG)
+
+
