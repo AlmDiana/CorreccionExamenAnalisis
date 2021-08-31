@@ -14,22 +14,14 @@ A continuación una captura de confirmación de guardado en la base de datos "ju
 
 
 # Ejercicio 3
-Script 3 : "Ejercicio3.py" A continuación se detalla el proceso que se realizó para completar este ejercicio:
-1.  Desde Mongo DB Atlas conectarse a MongoDB Compass:
+A continuación se detalla el proceso que se realizó para completar este ejercicio:
+1.  Desde Mongo DB Atlas conectarse a MongoDB Compass y creación de Base de datos "Corrección" y de la colección "Ejercicio3":
 ![imagen](https://user-images.githubusercontent.com/58041267/131428437-9706bc17-972a-41a0-ba2d-a378efb4cd7b.png)
 ![imagen](https://user-images.githubusercontent.com/58041267/131428772-25428b1f-6d27-469d-8ba4-43ae3dcd0274.png)
-2. 
-3.  
-Se empieza realizando la conexion con mongodb por medio de pymongo, se muestra el mensaje de si se realizo correctamente la conexion o no. Se importan las herramientas necesarias y se generan las funciones que permitiran limpiar las etiquetas. Usamos el request para obtener los datos html y posteriormente se los limpia con un for el cual guardara los datos limpiados en Titles, una vez realizado esto se lo guarada como json y se lo manda a la BD y coleccion previamente creadas.
+![imagen](https://user-images.githubusercontent.com/58041267/131429903-596a977a-b8fe-4548-b940-725fc775b470.png)
 
-#Ejercicio 5
-Se presentara  a continucacion la creacion de los CSV referentes a TIkTok para su posterior carga a MySQL
-1. Se abre un terminal, en donde  se ejecutan los siguientes comandos
+2. Conexión con MongoDB por medio de pymongo, el código se encuentra en el Script 3 : "Ejercicio3.py" donde inicialmente se obtiene los datos html, se filtra por etiqueta y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo guardado en MongoDB Compass.
+![imagen](https://user-images.githubusercontent.com/58041267/131431688-74b767d0-6861-40da-9349-ce7c4a7631ae.png)
+![imagen](https://user-images.githubusercontent.com/58041267/131432307-a6f44c74-e882-49bb-9add-552d7b5e5bff.png)
 
-![parte 5 tiktok 1 - CSV_ primera_pag_tiktok](https://user-images.githubusercontent.com/65979995/131430748-a69f8a2b-ad83-4d08-8120-47b44df11b17.png)
-
-2. Esperamos a que se generen los CSV para poder ver su posterior ubicacion en la carpeta CSV tiktok
-
-![Creacion de csv](https://user-images.githubusercontent.com/65979995/131430914-ce52afe5-aac2-43b0-b2a2-737c78aeb671.PNG)
-
-
+# Ejercicio 4
