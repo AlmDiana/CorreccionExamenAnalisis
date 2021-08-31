@@ -1,38 +1,44 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[18]:
 
 
+#importaciones
 from facebook_scraper import get_posts
 import json
 import time
+import pymongo
 from pymongo import MongoClient
 
-myclient = MongoClient("mongodb://localhost:27017") 
- 
+#conexion con mongodb
+myclient =pymongo.MongoClient("mongodb://localhost:27017")
 try:
     myclient.admin.command('ismaster')
     print('MongoDB connection: Conexion exitosa')
 except ConnectionFailure as cf:
     print('MongoDB connection: Conexion fallida', cf)
+
+try:
+    db = myclient["Correccion"]
+    collection= db["Ejercicio4"]
+except:
+    db = myclient["Correccion"]
+    collection= db["Ejercicio4"]
     
-
-db=myclient['Correccion_examen_analisis_de_datos']
-collection= db['4']
-
+#funcion para guardar en mongodb
 i=1
-for post in get_posts('tokyo2020', pages=100, extra_info=True):
+for post in get_posts("olympics", pages=50, extra_info=True):
     print(i)
     i=i+1
     time.sleep(5)
     
     id=post['post_id']
     doc={}
-     
-    doc['id']=id
     
+    doc['id']=id
     mydate=post['time']
+    
     try:
         doc['texto']=post['text']
         doc['date']=mydate.timestamp()
@@ -43,16 +49,19 @@ for post in get_posts('tokyo2020', pages=100, extra_info=True):
             doc['reactions']=post['reactions']
         except:
             doc['reactions']={}
-
-
+        
         doc['post_url']=post['post_url']
-        collection.insert_one(doc)
+        collection.save(doc)
+        
+        print('Guardado con exito')
+    except Exception as e:
+        print('No se pudo guardar:'+str(e))
 
-    
-        print("guardado exitosamente")
 
-    except Exception as e:    
-        print("no se pudo grabar:" + str(e))
+# In[ ]:
+
+
+
 
 
 # In[ ]:
