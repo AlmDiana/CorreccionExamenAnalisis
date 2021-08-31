@@ -38,3 +38,12 @@ A continuación se detalla el proceso que se realizó para completar este ejerci
 
 # Ejercicio 4
 Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
+1. Realizamos el script para poder generar la base de datos con lo extraído desde Facebook y la palabra que buscamos
+![2](https://user-images.githubusercontent.com/85883884/131435545-3b404ec9-f2c6-4db1-9d06-ecd099842dd0.png)
+![3](https://user-images.githubusercontent.com/85883884/131435554-7413751d-d64b-4c06-88b1-9276ba385454.png)
+![4](https://user-images.githubusercontent.com/85883884/131435567-f586045c-aab6-40bf-8d24-a3f048170e93.png)
+
+2. Comprobamos en MongoDB qeu todos los datos se hayan guardado correctamente
+![1](https://user-images.githubusercontent.com/85883884/131435616-c4a68aee-7f64-48d5-afcf-ff6e9fa63f55.png)
+
+
