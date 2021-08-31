@@ -44,3 +44,4 @@ A continuación se detalla el proceso que se realizó para completar este ejerci
 2. Conectarse con MongoDB por medio de facebook_scraper y get_posts, el código se encuentra en el Script 4 : "Ejercicio4.py" donde inicialmente se selecciona una palabra a buscar dentro de los posts de facebook, se filtra por texto, fecha, likes, comentarios y reacciones y finalmente se guarda en la base de datos y colección creadas previamente. A continuación, se presenta el mensaje de conexión exitosa y aparece el archivo insertado en MongoDB Compass dentro de la base de datos y colección establecidas.
 ![imagen](https://user-images.githubusercontent.com/58041267/131435917-5d6ef279-e1f4-4af6-a941-5a2eb57eb219.png)
 
+# Ejercicio 5
