@@ -72,7 +72,11 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
 
 # Ejercicio 6
-1. 
+1. as
+![image](https://user-images.githubusercontent.com/66786471/131441515-f28181da-7fd9-41af-a4da-e663b653188d.png)
+
+
+3. 
 # Ejercicio 7
 1. Para pasar los archivos de Couch DB a Mongo DB, se lo hizo manualmente, por lo tanto se tomó los archivos "juegoscorreccion" y "juegoscorreccion2" y se los guardó como archivo de tipo JSON.
 ![imagen](https://user-images.githubusercontent.com/58041267/131440760-93e5adce-1a50-42bc-80ef-7b0ad89e1e7e.png)
