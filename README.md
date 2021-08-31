@@ -50,4 +50,8 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 ![7](https://user-images.githubusercontent.com/85883884/131436303-a2c9845e-0bbc-4c89-8518-f3e365da6c46.png)
 ![8](https://user-images.githubusercontent.com/85883884/131436314-9be9ecc9-2517-4e0b-bf12-0847f9cc3839.png)
 
+# Ejercicio 5
+
+1. Para este ejercicio haremos uso de la libreria tiktok-scraper y una carpeta donde guadaremos los csv generados.
+2. 
 
