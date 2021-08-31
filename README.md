@@ -110,6 +110,7 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 
 ![image](https://user-images.githubusercontent.com/66786471/131446454-17a1272b-c8ff-4647-af0b-0cef442e7021.png)
 
+![image](https://user-images.githubusercontent.com/66786471/131446901-9e6e4291-19fa-430c-b9fe-fd3e0db63d18.png)
 
 # Ejercicio 9
 
