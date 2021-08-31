@@ -95,5 +95,6 @@ Se necesita extraer datos de una página de Facebook y guardarlos en MongoDB
 ![imagen](https://user-images.githubusercontent.com/58041267/131440960-14a8ea59-860d-4f43-9ecb-2b3167c92864.png)
 
 # Ejercicio 8
+1. Una ves todo conectado a MongoDb compass , procederemos a coenctar MongoDB compass con un clupster de MongoDB Atlas
 ![image](https://user-images.githubusercontent.com/66786471/131442870-281295a3-a0b9-4b52-ae25-150c8e408b39.png)
 
