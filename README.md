@@ -1,5 +1,5 @@
 # Correccion del Examen - Analisis de Datos
-#Integrantes: 
+Integrantes: 
 
 - Diana Almeida
 
